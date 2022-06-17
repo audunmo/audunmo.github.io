@@ -1,15 +1,20 @@
-import './App.css'
+import "./index.css"
 
 function App() {
-  const x = { a : 2, b : 3}
-
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          <h2>👋 Hi there, my name is Audun</h2>
+    <div>
+        <p className="flex pt-[80px] justify-center items-center dark:text-white">
+        <div>
+          <h2 className="text-3xl font-bold">👋 Hi there, my name is Audun</h2>
+          <div className="grid col-5">
+            <div> Lol </div>
+            <div> Lol </div>
+            <div> Lol </div>
+            <div> Lol </div>
+            <div> Lol </div>
+          </div>
+        </div>
         </p>
-      </header>
     </div>
   )
 }
